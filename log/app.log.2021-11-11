@@ -1,0 +1,42 @@
+2021-11-11 03:21:29,554 WARNING 7 main.py:14 warn message
+2021-11-11 03:21:29,554 INFO 7 main.py:15 info message
+2021-11-11 03:21:29,555 ERROR 7 main.py:16 error message
+2021-11-11 03:21:29,557 DEBUG 7 main.py:17 debug message
+2021-11-11 03:21:29,559 INFO 7 main.py:21 
+[COMMON]
+AppName = app
+ImageName = iotcube/app:0.1.0
+[DB]
+DbUrl = mysql+pymysql://labradordb:LabradorDBProd!@labradordb.chg7rza3lauf.ap-northeast-2.rds.amazonaws.com:3306/labradordb
+[LOG]
+LogPath = /workspace/log
+2021-11-11 03:21:29,561 INFO 7 base.py:27 [Database]open:mysql+pymysql://labradordb:LabradorDBProd!@labradordb.chg7rza3lauf.ap-northeast-2.rds.amazonaws.com:3306/labradordb
+2021-11-11 03:21:29,683 INFO 7 cdbvdb.py:22 SELECT * from TB_CONFIG
+2021-11-11 03:21:29,705 INFO 7 main.py:28 key:COMP_FILE_DB_VERSION, value:V4_1
+2021-11-11 03:21:29,708 INFO 7 main.py:28 key:COMPACT_FILTER, value:["/node_modules/","/doc/","/bin/","/docs/","^node_modules/","^doc/","^docs/","^bin/",".bin$","/Gemfile","^Gemfile$"]
+2021-11-11 03:21:29,710 INFO 7 main.py:28 key:COMPACT_WHITELIST_LANG_FILTER, value:["C","Java","C++","JavaScript","Go","HTML","PHP","Python","C#","Ruby","TypeScript","Objective-C","Scala","Kotlin","Rust","Swift","Dart","Groovy","Perl","OCaml","Nix","Erlang","Lua","CoffeeScript","SQL","Visual Basic","Fortran","Hack","Vim script","Haskell","Emacs Lisp","R","TeX","Cython","Clojure","F#","Assembly","GLSL","Elixir","Racket","Ballerina","Scheme","MATLAB","D","Ada","Haxe","Crystal","XSLT","Coq","WebAssembly","Julia","ActionScript","QML","OpenCL","Nim","Common Lisp","Pascal","Processing","GraphQL","Verilog","NSIS","PostScript","Xtend","HLSL","fish","GAP","Prolog","SuperCollider","Awk","Reason","Zig","DIGITAL Command Language","PureScript","Elm","IDL","Idris","LiveScript","ABAP","Red","sed","q","Vala","Mathematica","GDScript","AngelScript","Metal","Forth","OpenEdge ABL","Scilab","M","E","Rebol","Smalltalk","ChucK","POV-Ray SDL","Max","Turing","VHDL","eC","CLIPS","Objective-J","AspectJ","SystemVerilog","AppleScript","Game Maker Language","AMPL","P4","Cool","NewLisp","LilyPond","UnrealScript","Boo","Apex","Stata","COBOL","Squirrel","HolyC","ColdFusion","Limbo","Eiffel","G-code","Modula-2","SAS","Ceylon","PicoLisp","Harbour","XC","Io","Clean","Nemerle","REXX","Csound","Mercury","Golo","XQuery","Nit","Factor","Fantom","Pike","F*","Lasso","Component Pascal","Arc","X10","Modelica","Pure Data","Clarion","mupad","J","Modula-3","LSL","Chapel","KRL","Nu","Gosu","Redcode","Lean","Xojo","AutoIt","APL","Logtalk","Dylan","Opa","Genie","Agda","LabVIEW","Opal","Oz","Self","Charity","ObjectScript","Tea","ooc","GAMS","NetLogo","Oxygene","TXL","Mirah"]
+2021-11-11 03:21:29,712 INFO 7 main.py:28 key:CTAG_LNAGUAGE, value:["Ada","Asm","Asp","AutoIt","Awk","Basic","Clojure","C","C++","C#","Cobol","CUDA","D","DosBatch","Eiffel","Elixir","Elm","EmacsLisp","Erlang","Fortran","Gdbinit","Go","HTML","Java","JavaScript","Lisp","Lua","M4","MatLab","NSIS","ObjectiveC","OCaml","Pascal","Perl","Perl6","PHP","PowerShell","PuppetManifest","Python","QemuHX","R","REXX","Robot","Ruby","Rust","Scheme","Sh","SLang","SML","SQL","Tcl","Tex","TypeScript","Verilog","SystemVerilog","VHDL","Vim","YACC","Zephir","XSLT"]
+2021-11-11 03:21:29,714 INFO 7 main.py:28 key:SUB_DIR_FILTER, value:["3rd+(.*?)+/","third+(.*?)","/external/","^external/","/vendor/","^vendor/","/deps/","^deps/","/depends/","^depends/","/pkg/","^pkg/","/package/","^package/"]
+2021-11-11 03:21:29,715 INFO 7 main.py:28 key:VULN_DB_VERSION, value:V2
+2021-11-11 03:21:29,717 INFO 7 base.py:48 [Database]close
+2021-11-11 03:27:19,970 WARNING 8 main.py:14 warn message
+2021-11-11 03:27:19,971 INFO 8 main.py:15 info message
+2021-11-11 03:27:19,972 ERROR 8 main.py:16 error message
+2021-11-11 03:27:19,973 DEBUG 8 main.py:17 debug message
+2021-11-11 03:27:19,975 INFO 8 main.py:21 
+[COMMON]
+AppName = app
+ImageName = iotcube/app:0.1.0
+[DB]
+DbUrl = mysql+pymysql://labradordb:LabradorDBProd!@labradordb.chg7rza3lauf.ap-northeast-2.rds.amazonaws.com:3306/labradordb
+[LOG]
+LogPath = /workspace/log
+2021-11-11 03:27:19,977 INFO 8 base.py:27 [Database]open:mysql+pymysql://labradordb:LabradorDBProd!@labradordb.chg7rza3lauf.ap-northeast-2.rds.amazonaws.com:3306/labradordb
+2021-11-11 03:27:20,087 INFO 8 cdbvdb.py:22 SELECT * from TB_CONFIG
+2021-11-11 03:27:20,107 INFO 8 main.py:28 key:COMP_FILE_DB_VERSION, value:V4_1
+2021-11-11 03:27:20,109 INFO 8 main.py:28 key:COMPACT_FILTER, value:["/node_modules/","/doc/","/bin/","/docs/","^node_modules/","^doc/","^docs/","^bin/",".bin$","/Gemfile","^Gemfile$"]
+2021-11-11 03:27:20,111 INFO 8 main.py:28 key:COMPACT_WHITELIST_LANG_FILTER, value:["C","Java","C++","JavaScript","Go","HTML","PHP","Python","C#","Ruby","TypeScript","Objective-C","Scala","Kotlin","Rust","Swift","Dart","Groovy","Perl","OCaml","Nix","Erlang","Lua","CoffeeScript","SQL","Visual Basic","Fortran","Hack","Vim script","Haskell","Emacs Lisp","R","TeX","Cython","Clojure","F#","Assembly","GLSL","Elixir","Racket","Ballerina","Scheme","MATLAB","D","Ada","Haxe","Crystal","XSLT","Coq","WebAssembly","Julia","ActionScript","QML","OpenCL","Nim","Common Lisp","Pascal","Processing","GraphQL","Verilog","NSIS","PostScript","Xtend","HLSL","fish","GAP","Prolog","SuperCollider","Awk","Reason","Zig","DIGITAL Command Language","PureScript","Elm","IDL","Idris","LiveScript","ABAP","Red","sed","q","Vala","Mathematica","GDScript","AngelScript","Metal","Forth","OpenEdge ABL","Scilab","M","E","Rebol","Smalltalk","ChucK","POV-Ray SDL","Max","Turing","VHDL","eC","CLIPS","Objective-J","AspectJ","SystemVerilog","AppleScript","Game Maker Language","AMPL","P4","Cool","NewLisp","LilyPond","UnrealScript","Boo","Apex","Stata","COBOL","Squirrel","HolyC","ColdFusion","Limbo","Eiffel","G-code","Modula-2","SAS","Ceylon","PicoLisp","Harbour","XC","Io","Clean","Nemerle","REXX","Csound","Mercury","Golo","XQuery","Nit","Factor","Fantom","Pike","F*","Lasso","Component Pascal","Arc","X10","Modelica","Pure Data","Clarion","mupad","J","Modula-3","LSL","Chapel","KRL","Nu","Gosu","Redcode","Lean","Xojo","AutoIt","APL","Logtalk","Dylan","Opa","Genie","Agda","LabVIEW","Opal","Oz","Self","Charity","ObjectScript","Tea","ooc","GAMS","NetLogo","Oxygene","TXL","Mirah"]
+2021-11-11 03:27:20,112 INFO 8 main.py:28 key:CTAG_LNAGUAGE, value:["Ada","Asm","Asp","AutoIt","Awk","Basic","Clojure","C","C++","C#","Cobol","CUDA","D","DosBatch","Eiffel","Elixir","Elm","EmacsLisp","Erlang","Fortran","Gdbinit","Go","HTML","Java","JavaScript","Lisp","Lua","M4","MatLab","NSIS","ObjectiveC","OCaml","Pascal","Perl","Perl6","PHP","PowerShell","PuppetManifest","Python","QemuHX","R","REXX","Robot","Ruby","Rust","Scheme","Sh","SLang","SML","SQL","Tcl","Tex","TypeScript","Verilog","SystemVerilog","VHDL","Vim","YACC","Zephir","XSLT"]
+2021-11-11 03:27:20,114 INFO 8 main.py:28 key:SUB_DIR_FILTER, value:["3rd+(.*?)+/","third+(.*?)","/external/","^external/","/vendor/","^vendor/","/deps/","^deps/","/depends/","^depends/","/pkg/","^pkg/","/package/","^package/"]
+2021-11-11 03:27:20,116 INFO 8 main.py:28 key:VULN_DB_VERSION, value:V2
+2021-11-11 03:27:20,118 INFO 8 base.py:48 [Database]close

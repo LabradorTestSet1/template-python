@@ -1,0 +1,43 @@
+FROM ubuntu:18.04
+ADD src /workspace/src
+
+RUN apt-get update && apt install -q -y \
+        libssl-dev \
+        libsodium-dev \
+		git \
+		build-essential \
+		zlib1g-dev \
+		libncurses5-dev \
+		libgdbm-dev \
+		libnss3-dev \
+		libssl-dev \
+		libreadline-dev \
+		libffi-dev \
+		libsqlite3-dev \
+		wget \
+		libbz2-dev \
+		autoconf \
+		bison \
+		libyaml-dev \
+		cmake \
+		pkg-config \
+		gcc \
+		g++ \
+		net-tools \
+        openjdk-11-jdk \
+        python3.8\
+        python3-pip\
+        software-properties-common
+
+
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.8 0
+
+
+RUN add-apt-repository ppa:longsleep/golang-backports \
+    && apt-get update && apt install -q -y \
+    golang-go
+
+RUN cd /workspace/src && \
+    pip3 install -r requirements_ubuntu.txt
+
+WORKDIR /workspace

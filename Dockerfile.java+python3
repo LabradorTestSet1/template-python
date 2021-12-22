@@ -1,0 +1,18 @@
+FROM openjdk:11
+ADD src /workspace/src
+
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        python3-pip \
+        # golang-go\
+        software-properties-common\
+        git\
+        bash
+
+RUN cd /workspace/src && \ 
+    pip3 install -r requirements_openJDK.txt
+
+WORKDIR /workspace
+
+CMD ["python3"]
